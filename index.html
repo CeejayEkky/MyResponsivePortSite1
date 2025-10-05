@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Site of Ceejay</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/texture/color1.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/s-switch.css">
+
+    <link rel="stylesheet" href="css/texture/color1.css" class="alt-style" title="c-1" disabled>
+    <link rel="stylesheet" href="css/texture/color2.css" class="alt-style" title="c-2" disabled>
+    <link rel="stylesheet" href="css/texture/color3.css" class="alt-style" title="c-3" disabled>
+    <link rel="stylesheet" href="css/texture/color4.css" class="alt-style" title="c-4" disabled>
+    <link rel="stylesheet" href="css/texture/color5.css" class="alt-style" title="c-5" disabled>
+    <link rel="stylesheet" href="css/texture/color6.css" class="alt-style" title="c-6" disabled>
+</head>
+
+<body>
+    <div class="main-bx">
+        <div class="aside">
+            <div class="logo">
+                <a href="#home"><img src="pics/ceejay.png" alt="" /></a>
+            </div>
+            <div class="n-tog">
+                <span></span>
+            </div>
+            <ul class="nav">
+                <li>
+                    <a href="#home" class="active"><i class="fa fa-home"></i>Home</a>
+                </li>
+                <li>
+                    <a href="#abt"><i class="fa fa-user"></i>About</a>
+                </li>
+                <li>
+                    <a href="#serve"><i class="fa fa-list"></i>Services</a>
+                </li>
+                <li>
+                    <a href="#work"><i class="fa fa-briefcase"></i>Work</a>
+                </li>
+                <li>
+                    <a href="#cnts"><i class="fa fa-comments"></i>Contacts</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="main-tent">
+            <section class="home sect" id="home">
+                <div class="box">
+                    <div class="row">
+                        <div class="h-info p-15">
+                            <h3 class="intro">
+                                Hi, my name is <span class="name">Divinedestiny Ekwom</span>
+                            </h3>
+                            <h3 class="prof">
+                                I'm <span class="checks"></span>
+                            </h3>
+                            <p>
+                                With 8+ years of experience as a full-stack dev expert, I
+                                specialize in building responsive, production-ready websites —
+                                from portfolio sites, Python libraries, and MERN stack
+                                applications to gaming and 3D experiences. My work combines
+                                speed, precision, and clean design to deliver results that
+                                just work — on time, every time.
+                            </p>
+                            <a href="#abt" class="btn hire">More About Me</a>
+                        </div>
+                        <div class="h-img p-15" onclick="nextSlide()">
+                            <button onclick="prevSlide()" class="side" style="
+                    outline: none;
+                    border: none;
+                    background-color: transparent;
+                    font-size: larger;
+                    margin-bottom: 20px;
+                    cursor: pointer;
+                    "></button>
+                            <button onclick="nextSlide()" class="side" style="
+                    outline: none;
+                    border: none;
+                    background-color: transparent;
+                    font-size: larger;
+                    margin-bottom: 20px;
+                    cursor: pointer;
+                    "></button>
+                            <img class="slide" src="pics/pic.PNG" alt="" />
+                            <img class="slide" src="pics/logo1.png" alt="" />
+                            <img class="slide" src="pics/jay.png" alt="" />
+                            <img class="slide" src="pics/logo2.png" alt="" />
+                            <img class="slide" src="pics/logo3.png" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr >
+            <section class="abt sect" id="abt">
+                <div class="box">
+                    <div class="row">
+                        <div class="abt-tent p-15">
+                            <div class="row">
+                                <div class="abt-txt">
+                                    <h3>
+                                        I'm Divinedestiny Ekwom, <i>(Ceejay)</i> and a
+                                        <span>Full-Stack Developer</span>
+                                    </h3>
+                                    <p>
+                                        With advanced experience on creating innovative digital
+                                        solutions, my expertise spans: Portfolio websites & personal branding
+                                        platforms, Python libraries, tools and MERN stack applications, 3D integrations & gaming
+                                        experiences, but what sets me apart is that I design and develop responsive UI/UX
+                                        interfaces that work seamlessly across devices. Every
+                                        project is built with robust, production-ready code,
+                                        ensuring performance, scalability, and reliability. I
+                                        value clear communication and collaboration, keeping
+                                        clients and stakeholders updated every step of the way. My
+                                        process is guided by precision, accuracy, and efficiency,
+                                        so you always get results delivered on time. Whether it's
+                                        a personal project, startup idea, or enterprise-level
+                                        solution, I'm committed to turning visions into reality
+                                        through clean code and creative execution. <b>Note: Ceejay is my nickname</b>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="p-sk p-15">
+                                    <div class="row">
+                                        <div class="sk-item">
+                                            <h5>HTML/CSS</h5>
+                                            <div class="grad">
+                                                <div class="grad-in" style="width: 93%;"></div>
+                                                <div class="sk-per">93%</div>
+                                            </div>
+                                        </div>
+                                        <div class="sk-item">
+                                            <h5>Javascript(Js)</h5>
+                                            <div class="grad">
+                                                <div class="grad-in" style="width: 80%;"></div>
+                                                <div class="sk-per">80%</div>
+                                            </div>
+                                        </div>
+                                        <div class="sk-item">
+                                            <h5>ReactJs/Tailwindcss</h5>
+                                            <div class="grad">
+                                                <div class="grad-in" style="width: 83%;"></div>
+                                                <div class="sk-per">83%</div>
+                                            </div>
+                                        </div>
+                                        <div class="sk-item">
+                                            <h5>Bootstrap</h5>
+                                            <div class="grad">
+                                                <div class="grad-in" style="width: 73%;"></div>
+                                                <div class="sk-per">73%</div>
+                                            </div>
+                                        </div>
+                                        <div class="sk-item">
+                                            <h5>Python Tkinter</h5>
+                                            <div class="grad">
+                                                <div class="grad-in" style="width: 81.5%;"></div>
+                                                <div class="sk-per">81.5%</div>
+                                            </div>
+                                        </div>
+                                        <div class="sk-item">
+                                            <h5>NodeJs/Mongodb</h5>
+                                            <div class="grad">
+                                                <div class="grad-in" style="width: 67%;"></div>
+                                                <div class="sk-per">67%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="p-p"></div>
+                                <div class="p-info p-15">
+                                    <div class="row">
+                                        <div class="i-item p-15">
+                                            <p>Birthday: <span>11 Dec 2007</span></p>
+                                        </div>
+                                        <div class="i-item p-15">
+                                            <p>Age: <span>17</span></p>
+                                        </div>
+                                        <div class="i-item p-15">
+                                            <p>Email: <span>ceejay300@gmail.com</span></p>
+                                        </div>
+                                        <div class="i-item p-15">
+                                            <p>Degree: <span>CS</span></p>
+                                        </div>
+                                        <div class="i-item p-15">
+                                            <p>PhoneNum: <span>+234 907 461 4559</span></p>
+                                        </div>
+                                        <div class="i-item p-15">
+                                            <p>Country: <span>Nigeria</span></p>
+                                        </div>
+                                        <div class="i-item p-15">
+                                            <p>State: <span>Lagos</span></p>
+                                        </div>
+                                        <div class="i-item p-15">
+                                            <p>Freelance: <span>Available</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="btns p-15">
+                                            <a href="#" download class="btn">Download CV</a>
+                                            <a href="#cnts" class="btn hire">Hire Me</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="edu p-15">
+                                    <h3 class="title">Education</h3>
+                                    <div class="row">
+                                        <div class="t-box p-15">
+                                            <div class="time s-dark">
+                                                <div class="t-item">
+                                                    <div class="dotc"></div>
+                                                    <h3 class="t-date">
+                                                        <i class="fa fa-calendar"></i>  2018 - 2020
+                                                    </h3>
+                                                    <h4 class="t-title">Master in Scratch Development</h4>
+                                                    <p class="t-txt">Lorem ipsum dolor sit amet consectetur adipisicing 
+                                                        elit. Ipsa eius voluptates saepe quis nesciunt necessitatibus 
+                                                        consequatur, consectetur numquam, dignissimos nulla libero? 
+                                                        Delectus, aut ad.
+                                                    </p>
+                                                </div>
+                                                <div class="t-item">
+                                                    <div class="dotc"></div>
+                                                    <h3 class="t-date">
+                                                        <i class="fa fa-calendar"></i>  2021 - 2024
+                                                    </h3>
+                                                    <h4 class="t-title">Master in Frontend Development</h4>
+                                                    <p class="t-txt">Lorem ipsum dolor sit amet consectetur adipisicing 
+                                                        elit. Ipsa eius voluptates saepe quis nesciunt necessitatibus 
+                                                        consequatur, consectetur numquam, dignissimos nulla libero? 
+                                                        Delectus, aut ad.
+                                                    </p>
+                                                </div>
+                                                <div class="t-item">
+                                                    <div class="dotc"></div>
+                                                    <h3 class="t-date">
+                                                        <i class="fa fa-calendar"></i>  2025 - 2028
+                                                    </h3>
+                                                    <h4 class="t-title">Master in Full-Stack Development</h4>
+                                                    <p class="t-txt">Lorem ipsum dolor sit amet consectetur adipisicing 
+                                                        elit. Ipsa eius voluptates saepe quis nesciunt necessitatibus 
+                                                        consequatur, consectetur numquam, dignissimos nulla libero? 
+                                                        Delectus, aut ad.
+                                                    </p>
+                                                </div> <!-- 1:26:41 -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="exp p-15">
+                                    <h3 class="title">Experience</h3>
+                                    <div class="row">
+                                        <div class="t-box p-15">
+                                            <div class="time s-dark">
+                                                <div class="t-item">
+                                                    <div class="dotc"></div>
+                                                    <h3 class="t-date">
+                                                        <i class="fa fa-calendar"></i>  2018 - 2020
+                                                    </h3>
+                                                    <h4 class="t-title">Master in Scratch Development</h4>
+                                                    <p class="t-txt">Lorem ipsum dolor sit amet consectetur adipisicing 
+                                                        elit. Ipsa eius voluptates saepe quis nesciunt necessitatibus 
+                                                        consequatur, consectetur numquam, dignissimos nulla libero? 
+                                                        Delectus, aut ad.
+                                                    </p>
+                                                </div>
+                                                <div class="t-item">
+                                                    <div class="dotc"></div>
+                                                    <h3 class="t-date">
+                                                        <i class="fa fa-calendar"></i>  2018 - 2020
+                                                    </h3>
+                                                    <h4 class="t-title">Master in Scratch Development</h4>
+                                                    <p class="t-txt">Lorem ipsum dolor sit amet consectetur adipisicing 
+                                                        elit. Ipsa eius voluptates saepe quis nesciunt necessitatibus 
+                                                        consequatur, consectetur numquam, dignissimos nulla libero? 
+                                                        Delectus, aut ad.
+                                                    </p>
+                                                </div>
+                                                <div class="t-item">
+                                                    <div class="dotc"></div>
+                                                    <h3 class="t-date">
+                                                        <i class="fa fa-calendar"></i>  2018 - 2020
+                                                    </h3>
+                                                    <h4 class="t-title">Master in Scratch Development</h4>
+                                                    <p class="t-txt">Lorem ipsum dolor sit amet consectetur adipisicing 
+                                                        elit. Ipsa eius voluptates saepe quis nesciunt necessitatibus 
+                                                        consequatur, consectetur numquam, dignissimos nulla libero? 
+                                                        Delectus, aut ad.
+                                                    </p>
+                                                </div> <!-- 1:34:34 -->
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+            <hr >
+            <section class="serve sect" id="serve">
+                <div class="box">
+                    <div class="row">
+                        <div class="s-tit p-15">
+                            <h2>What I Offer</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!-- 1:36:01 -->
+                        <div class="s-items p-15">
+                            <div class="s-it-inner">
+                                <h4>Frontend Developer</h4>
+                                <h5>🔘 Advanced</h5>
+                                <div class="icon">
+                                    <i class="fa fa-mobile"></i>
+                                </div>
+                                <p>Am a flexible developer of creating responsive user interfaces and experiences</p>
+                            </div>
+                        </div>
+                        <div class="s-items p-15">
+                            <div class="s-it-inner">
+                                <h4>AI Programmer</h4>
+                                <h5>🔘 Basic</h5>
+                                <div class="icon">
+                                    <i class="fa fa-robot"></i>
+                                </div>
+                                <p>Am a flexible developer of creating responsive user interfaces and experiences</p>
+                            </div>
+                        </div>
+                        <div class="s-items p-15">
+                            <div class="s-it-inner">
+                                <h4>Full-Stack Developer</h4>
+                                <h5>🔘 Advanced</h5>
+                                <div class="icon">
+                                    <i class="fa fa-code"></i>
+                                </div>
+                                <p>Am a flexible developer of creating responsive user interfaces and experiences</p>
+                            </div>
+                        </div>
+                        <div class="s-items p-15">
+                            <div class="s-it-inner">
+                                <h4>Backend Developer</h4>
+                                <h5>🔘 Medium</h5>
+                                <div class="icon">
+                                    <i class="fa fa-laptop-code"></i>
+                                </div>
+                                <p>Am a flexible developer of creating responsive user interfaces and experiences</p>
+                            </div>
+                        </div>
+                        <div class="s-items p-15">
+                            <div class="s-it-inner">
+                                <h4>Content Creator</h4>
+                                <h5>🔘 Medium</h5>
+                                <div class="icon">
+                                    <i class="fa fa-television"></i>
+                                </div>
+                                <p>Am a flexible developer of creating responsive user interfaces and experiences</p>
+                            </div>
+                        </div>
+                        <div class="s-items p-15">
+                            <div class="s-it-inner">
+                                <h4>UI/UX Developer</h4>
+                                <h5>🔘 Medium</h5>
+                                <div class="icon">
+                                    <i class="fa fa-palette"></i>
+                                </div>
+                                <p>Am a flexible developer of creating responsive user interfaces and experiences</p>
+                            </div>
+                        </div>
+                        <div class="s-items p-15">
+                            <div class="s-it-inner">
+                                <h4>Gaming App Developer</h4>
+                                <h5>🔘 Basic</h5>
+                                <div class="icon">
+                                    <i class="fa fa-mobile-alt"></i>
+                                </div>
+                                <p>Am a flexible developer of creating responsive user interfaces and experiences</p>
+                            </div>
+                        </div>
+                        <div class="s-items p-15">
+                            <div class="s-it-inner">
+                                <h4>Data Analyst</h4>
+                                <h5>🔘 Medium</h5>
+                                <div class="icon">
+                                    <i class="fa fa-pie-chart"></i>
+                                </div>
+                                <p>Am a flexible developer of creating responsive user interfaces and experiences</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr >
+            <section class="work sect" id="work">
+                <div class="box">
+                    <div class="row">
+                        <div class="s-tit p-15">
+                            <h2>Achieved & Yet To Complete Projects <span class="span"></span><span class="span2"></span></h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="p-head p-15">
+                            <h2>Here are my Works: </h2>
+                        </div>
+                    </div>
+                    <div class="row">
+
+                        <div class="p-item p-15">
+                            <div class="p-it-inner s-dark">
+                                <div class="p-img">
+                                    <img src="pics/w1.PNG" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-item p-15">
+                            <div class="p-it-inner s-dark">
+                                <div class="p-img">
+                                    <img src="pics/w2.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-item p-15">
+                            <div class="p-it-inner s-dark">
+                                <div class="p-img">
+                                    <img src="pics/w3.PNG" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-item p-15">
+                            <div class="p-it-inner s-dark">
+                                <div class="p-img">
+                                    <img src="pics/w4.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-item p-15">
+                            <div class="p-it-inner s-dark">
+                                <div class="p-img">
+                                    <img src="pics/w5.PNG" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-item p-15">
+                            <div class="p-it-inner s-dark">
+                                <div class="p-img">
+                                    <img src="pics/w6.PNG" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-item p-15">
+                            <div class="p-it-inner s-dark">
+                                <div class="p-img">
+                                    <img src="pics/w7.PNG" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-item p-15">
+                            <div class="p-it-inner s-dark">
+                                <div class="p-img">
+                                    <img src="pics/w8.PNG" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <hr >
+            <section class="cnts sect" id="cnts">
+                <!-- 1:54:41 -->
+                <div class="box">
+                    <h3 class="cnts-title2 p-15">Got Questions?
+                    <h3 class="cnts-title">Still On Pause?</h3></h3>
+                    <h4 class="cnts-stitle p-15"><span>&#10094;&#10094;&#10094;&#10094;&#10094;&#10094;</span>
+                        &nbsp;&nbsp;&nbsp;AM HERE FOR THE ASSIST&nbsp;
+                        &nbsp;&nbsp;<span>&#10095;&#10095;&#10095;&#10095;&#10095;&#10095;</span>
+                    </h4>
+                    <div class="row">
+                        <div class="c-info s-dark p-15">
+                            <div class="icon"><i class="fa fa-phone"></i></div>
+                            <h4>Call On</h4>
+                            <p>+234 907 461 4559</p>
+                        </div>
+                        <div class="c-info s-dark p-15">
+                            <div class="icon"><i class="fa fa-envelope"></i></div>
+                            <h4>Email</h4>
+                            <p>ceejay300@gmail.com</p>
+                        </div>
+                        <div class="c-info s-dark p-15">
+                            <div class="icon"><i class="fa fa-map"></i></div>
+                            <h4>Location</h4>
+                            <p>Lagos, Nigeria</p>
+                        </div>
+                        <div class="c-info s-dark p-15">
+                            <div class="icon"><i class="fa fa-globe-africa"></i></div>
+                            <h4>Website</h4>
+                            <p>https://linkedin.com/</p>
+                        </div>
+                    </div>
+                    <h3 class="cnts-title2 p-15">SEND AN EMAIL<h3 class="cnts-title">Replies Incoming</h3></h3>
+                    <h4 class="cnts-stitle p-15"><span>&#10094;&#10094;&#10094;</span>
+                        &nbsp;&nbsp;&nbsp;I'm very much responsive to your messages&nbsp;
+                        &nbsp;&nbsp;<span>&#10095;&#10095;&#10095;</span>
+                    </h4>
+                    <div class="row">
+                        <div class="c-form p-15">
+                            <div class="row">
+
+                                <div class="f-item col-6 p-15">
+                                    <div class="f-grp">
+                                        <input type="text" class="f-ctrl" placeholder="Name">
+                                    </div>
+                                </div>
+                                <div class="f-item col-6 p-15">
+                                    <div class="f-grp">
+                                        <input type="email" class="f-ctrl" placeholder="Email">
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="row">
+                                <div class="f-item col-12 p-15">
+                                    <div class="f-grp">
+                                        <input type="text" class="f-ctrl" placeholder="Subject">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="f-item col-12 p-15">
+                                    <div class="f-grp">
+                                        <textarea name="" id="" class="f-ctrl" placeholder="Message"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="f-item col-12 p-15">
+                                    <button type="submit" class="btn">Send Message</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <div class="s-switch">
+        <div class="s-switch-tog s-icon">
+            <i class="fas fa-cog fa-spin"></i>
+        </div>
+        <div class="d-night s-icon">
+            <i class="fas "></i>
+        </div>
+        <h4>Theme Switch</h4>
+        <div class="cols">
+            <span class="c-1" onclick="setActStyle('c-1')"></span>
+            <span class="c-2" onclick="setActStyle('c-2')"></span>
+            <span class="c-3" onclick="setActStyle('c-3')"></span>
+            <span class="c-4" onclick="setActStyle('c-4')"></span>
+            <span class="c-5" onclick="setActStyle('c-5')"></span>
+            <span class="c-6" onclick="setActStyle('c-6')"></span>
+            <!-- 2:29:08 -->
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js" integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/script.js"></script>
+    <script src="js/s-switch.js"></script>
+</body>
+
+</html>

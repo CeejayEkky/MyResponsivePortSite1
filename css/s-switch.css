@@ -1,0 +1,92 @@
+.s-switch{
+    position: fixed;
+    top: 5px;
+    left: 0;
+    width: 250px;
+    padding: 15px;
+    background: var(--bg-blck-100);
+    border: 1px solid var(--bg-blck-50);
+    border: 5px;
+    z-index: 101;
+    transition: all .3s ease;
+    transform: translateX(-100%);
+}
+
+.s-switch.open{
+    transform: translateX(25px);
+}
+
+.s-switch .s-icon{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background: var(--bg-blck-100);
+    color: var(--txt-blck-900);
+    text-align: center;
+    left: 100%;
+    font-size: 22px;
+    cursor: pointer;
+    margin-left: 25px;
+    border: 1px solid var(--bg-blck-50);
+    border-radius: 20%;
+    transition: all .3s ease;
+}
+
+.s-switch .s-icon i{
+    line-height: 40px;
+}
+
+.s-switch .d-night{
+    top: 30px;
+    margin-left: 80px;
+}
+
+.s-switch .s-switch-tog{
+    top: 30px;
+}
+
+.s-switch h4{
+    color: var(--txt-blck-700);
+    margin: 0 0 10px;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.s-switch .cols{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.s-switch .cols span{
+    border-radius: 40%;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.s-switch .c-1{
+    background: #0004ff;
+}
+
+.s-switch .c-2{
+    background: #ff9900;
+}
+
+.s-switch .c-3{
+    background: #01a309;
+}
+
+.s-switch .c-4{
+    background: #e100ff;
+}
+
+.s-switch .c-5{
+    background: #ee0b0b;
+}
+
+.s-switch .c-6{
+    background: #cca807;
+}
