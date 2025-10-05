@@ -375,6 +375,7 @@ h3.prof{
 
 .abt .abt-tent .p-info .btns{
     margin-top: 30px;
+    flex-wrap: nowrap;
 }
 
 .abt .abt-tent .p-info .btns .btn{
@@ -868,10 +869,6 @@ h3.prof{
         max-width: 100%;
     }
 
-    .abt .abt-tent .p-info .btns .hire{
-        margin-top: 12px;
-    }
-
     .serve .s-items,
     .work .p-item,
     .cnts .c-info{
@@ -927,5 +924,6 @@ h3.prof{
         margin-bottom: 30px;
     }
 }
+
 
 /* 2:24:21 */
