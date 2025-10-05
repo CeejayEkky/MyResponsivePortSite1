@@ -868,6 +868,10 @@ h3.prof{
         max-width: 100%;
     }
 
+    .abt .abt-tent .p-info .btns .hire{
+        margin-top: 12px;
+    }
+
     .serve .s-items,
     .work .p-item,
     .cnts .c-info{
